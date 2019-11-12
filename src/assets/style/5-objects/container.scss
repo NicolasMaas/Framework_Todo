@@ -1,0 +1,9 @@
+.o-container {
+    max-width: $breakpoint-phone;
+    margin: 0 auto;
+}
+
+.o-container--fluid {
+    width: 100%;
+    margin: 0;
+}
