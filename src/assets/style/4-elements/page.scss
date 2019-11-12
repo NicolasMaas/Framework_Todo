@@ -3,6 +3,15 @@
     // background-color: $bright-turquoise;
 }
 
+:root {
+    --theme-color-red: $red;
+    --theme-color-blue: $blue;
+    --theme-color-green: $green;
+    --theme-color-orange: $orange;
+    --theme-color-yellow: $yellow;
+    --theme-color-purple: $purple;
+}
+
 html,
 body {
     // Sizing
