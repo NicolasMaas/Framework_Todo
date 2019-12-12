@@ -1,0 +1,33 @@
+@import "@/assets/style/1-settings/colors.scss";
+
+.c-clock {
+    position: relative;
+    display: block;
+
+    margin: 2rem 0;
+    padding-bottom: 100%;
+}
+
+.c-clock--hand {
+    --local-size: 3px;
+
+    position: absolute;
+    display: block;
+    width: var(--local-size);
+    bottom: calc(50% - calc(var(--local-size) / 2));
+    left: calc(50% - calc(var(--local-size) / 2));
+
+    background: $black;
+    border-radius: var(--local-size);
+
+    transform-origin: bottom;
+    will-change: transform;
+}
+
+.c-clock--hand__hours {
+    height: 30%;
+}
+
+.c-clock--hand__minutes {
+    height: 40%;
+}
